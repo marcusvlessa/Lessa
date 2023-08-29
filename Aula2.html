@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Interceptação Telemática</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Interceptação Telemática</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Início
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#login">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="bg-primary text-white">
+  <div class="container text-center">
+    <h1>Bem-vindo à Interceptação Telemática</h1>
+    <p class="lead">Análise e monitoramento de comunicações eletrônicas</p>
+  </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Sobre Nós</h2>
+        <p>Somos especialistas em análise de interceptação telemática. Oferecemos soluções para monitoramento e análise de comunicações eletrônicas.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/about.jpg" alt="" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h4>Análise de Interceptação</h4>
+            <p>Análise de chamadas, mensagens e dados interceptados para fins investigativos.</p>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h4>Análise de Bilhetagem</h4>
+            <p>Análise de registros de bilhetagem de redes de telecomunicações.</p>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h4>Análise de Vínculos</h4>
+            <p>Identificação de vínculos e conexões entre pessoas e organizações.</p>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Entre em Contato</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-4 text-center">
+        <h3>Entre em Contato</h3>
+        <p>
+          Rua das Flores, 123<br>
+          São Paulo - SP<br>
+          CEP: 00000-000<br>
+          (11) 1111-1111
+        </p>
+        <strong>ou</strong>
+        <p>contato@interceptacao.com.br</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Login Section -->
+<section id="login">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="card mt-5">
+          <div class="card-header bg-primary text-white">
+            <h3 class="text-center">Login</h3>  
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-3 bg-dark text-white">
+  <div class="container">
+    <p class="text-center">Copyright &copy; Interceptação Telemática 2023</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
